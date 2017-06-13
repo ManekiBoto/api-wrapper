@@ -1,4 +1,17 @@
 {
   "name": "api-wrapper",
-  "main": "./api-wrapper.js"
-} 
+  "main": "./api-wrapper.js",
+  "description": "An API Wrapper for the Poloniex and Kraken API",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "repository": "https://github.com/ManekiBoto/api-wrapper.git",
+  "author": "Aki Gao",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "crypto": "^0.0.3",
+    "dotenv": "^4.0.0"
+  }
+}
